@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background: #FFECD6;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    color: crimson;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+#addButton {
+    padding: 10px 30px;
+    background: crimson;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s;
+}
+
+#button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    background: lightseagreen;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    background: lightseagreen;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+#addButton:hover {
+    background: rgba(32, 178, 171, 0.849);
+    transform: scale(1.11);
+}
+
+.button:hover {
+    background: darkseagreen;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid darkgrey;
+    border-spacing: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+table {
+    background: lightseagreen;
+    color: #FFECD6;
+    border-radius: 5px;
+    width: 80%;
+}
+
+table img {
+    width: 300px;
+}
+
+form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+form input {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    background: lightseagreen;
+    color: white;
+    transition: 0.3s;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 85px;
+}
+
+.buttons a {
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    width: 80%;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: rgba(32, 178, 171, 0.849);
+    transform: scale(1.11);
+}
+
+#submitButton {
+    cursor: pointer;
+    background: crimson;
+}
+
+#submitButton:hover {
+    background: rgba(32, 178, 171, 0.849);
+    transform: scale(1.11);
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    color: crimson;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
